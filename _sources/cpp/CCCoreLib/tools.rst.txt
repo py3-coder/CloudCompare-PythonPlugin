@@ -5,6 +5,9 @@ Available tools from CCCoreLib::
 
 CCMiscTools
 -----------
+.. seealso::
+
+    Python: :py:class:`cccorelib.CCMiscTools`
 
 .. doxygenclass:: CCCoreLib::CCMiscTools
    :members:
@@ -13,6 +16,9 @@ CCMiscTools
 
 AutoSegmentationTools
 ---------------------
+.. seealso::
+
+    Python: :py:class:`cccorelib.AutoSegmentationTools`
 
 .. doxygenclass:: CCCoreLib::AutoSegmentationTools
    :members:
@@ -21,6 +27,9 @@ AutoSegmentationTools
 
 DistanceComputationTools
 ------------------------
+.. seealso::
+
+    Python: :py:class:`cccorelib.DistanceComputationTools`
 
 .. doxygenclass:: CCCoreLib::DistanceComputationTools
    :members:
@@ -28,6 +37,9 @@ DistanceComputationTools
 
 ManualSegmentationTools
 -----------------------
+.. seealso::
+
+    Python: :py:class:`cccorelib.ManualSegmentationTools`
 
 .. doxygenclass:: CCCoreLib::ManualSegmentationTools
    :members:
@@ -35,6 +47,9 @@ ManualSegmentationTools
 
 ScalarFieldTools
 ----------------
+.. seealso::
+
+    Python: :py:class:`cccorelib.ScalarFieldTools`
 
 .. doxygenclass:: CCCoreLib::ScalarFieldTools
    :members:
@@ -43,6 +58,9 @@ ScalarFieldTools
 
 ChamferDistanceTools
 ---------------------
+.. seealso::
+
+    Python: :py:class:`cccorelib.ChamferDistanceTransform`
 
 .. doxygenclass:: CCCoreLib::ChamferDistanceTransform
    :members:
@@ -51,6 +69,9 @@ ChamferDistanceTools
 
 CloudSamplingTools
 -------------------
+.. seealso::
+
+    Python: :py:class:`cccorelib.CloudSamplingTools`
 
 .. doxygenclass:: CCCoreLib::CloudSamplingTools
    :members:
@@ -59,6 +80,9 @@ CloudSamplingTools
 
 GeometricalAnalysisTools
 ------------------------
+.. seealso::
+
+    Python: :py:class:`cccorelib.GeometricalAnalysisTools`
 
 .. doxygenclass:: CCCoreLib::GeometricalAnalysisTools
    :members:
@@ -66,6 +90,9 @@ GeometricalAnalysisTools
 
 StatisticalTestingTools
 -----------------------
+.. seealso::
+
+    Python: :py:class:`cccorelib.StatisticalTestingTools`
 
 .. doxygenclass:: CCCoreLib::StatisticalTestingTools
    :members:
@@ -74,6 +101,9 @@ StatisticalTestingTools
 
 PointProjectionTools
 --------------------
+.. seealso::
+
+    Python: :py:class:`cccorelib.PointProjectionTools`
 
 .. doxygenclass:: CCCoreLib::PointProjectionTools
    :members:
@@ -82,6 +112,9 @@ PointProjectionTools
 
 RegistrationTools
 -----------------
+.. seealso::
+
+    Python: :py:class:`cccorelib.RegistrationTools`
 
 .. doxygenclass:: CCCoreLib::RegistrationTools
    :members:

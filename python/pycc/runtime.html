@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pycc Runtime &mdash; CloudCompare-PythonPlugin  documentation</title>
+  <title>Runtime &mdash; CloudCompare-PythonPlugin  documentation</title>
   
 
   
@@ -41,7 +41,7 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="pycc API" href="api/index.html" />
+    <link rel="next" title="CloudCompare Data Structures &amp; Interfaces" href="data_structures.html" />
     <link rel="prev" title="pycc (Python)" href="index.html" />
 <link href="../../_static/style.css" rel="stylesheet" type="text/css">
 
@@ -99,12 +99,14 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../cccorelib/index.html">cccorelib (Python)</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">pycc (Python)</a><ul class="current">
-<li class="toctree-l2 current"><a class="current reference internal" href="#">pycc Runtime</a><ul>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Runtime</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#ccpythoninstance">ccPythonInstance</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#cccommandlineinterface">ccCommandLineInterface</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="api/index.html">pycc API</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_structures.html">CloudCompare Data Structures &amp; Interfaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="primitives.html">Primitives</a></li>
+<li class="toctree-l2"><a class="reference internal" href="others.html">Others</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../cpp/qCC_db/index.html">qCC_db (C++)</a></li>
@@ -159,7 +161,7 @@
         
           <li><a href="index.html">pycc (Python)</a> &raquo;</li>
         
-      <li>pycc Runtime</li>
+      <li>Runtime</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -178,8 +180,8 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="pycc-runtime">
-<h1>pycc Runtime<a class="headerlink" href="#pycc-runtime" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="runtime">
+<h1>Runtime<a class="headerlink" href="#runtime" title="Permalink to this headline">¶</a></h1>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
 <p>As the functions and types below allow to interact with the CloudCompare app,
@@ -250,7 +252,7 @@ Get selected objects, deselect/set selected state for entities…</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="pycc.ccPythonInstance.dbRootObject">
-<span class="sig-name descname"><span class="pre">dbRootObject</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycc.ccPythonInstance" title="pycc.ccPythonInstance"><span class="pre">pycc.ccPythonInstance</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="api/data_structures.html#pycc.ccHObject" title="pycc.ccHObject"><span class="pre">pycc.ccHObject</span></a></span></span><a class="headerlink" href="#pycc.ccPythonInstance.dbRootObject" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">dbRootObject</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycc.ccPythonInstance" title="pycc.ccPythonInstance"><span class="pre">pycc.ccPythonInstance</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="data_structures.html#pycc.ccHObject" title="pycc.ccHObject"><span class="pre">pycc.ccHObject</span></a></span></span><a class="headerlink" href="#pycc.ccPythonInstance.dbRootObject" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns the root of the GUI DB Tree</p>
 </dd></dl>
 
@@ -281,7 +283,7 @@ Get selected objects, deselect/set selected state for entities…</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="pycc.ccPythonInstance.getSelectedEntities">
-<span class="sig-name descname"><span class="pre">getSelectedEntities</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycc.ccPythonInstance" title="pycc.ccPythonInstance"><span class="pre">pycc.ccPythonInstance</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="api/data_structures.html#pycc.ccHObject" title="pycc.ccHObject"><span class="pre">pycc.ccHObject</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pycc.ccPythonInstance.getSelectedEntities" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">getSelectedEntities</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycc.ccPythonInstance" title="pycc.ccPythonInstance"><span class="pre">pycc.ccPythonInstance</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="data_structures.html#pycc.ccHObject" title="pycc.ccHObject"><span class="pre">pycc.ccHObject</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pycc.ccPythonInstance.getSelectedEntities" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns the list of selected entities in the GUI DB Tree</p>
 </dd></dl>
 
@@ -299,7 +301,7 @@ Get selected objects, deselect/set selected state for entities…</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="pycc.ccPythonInstance.loadFile">
-<span class="sig-name descname"><span class="pre">loadFile</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycc.ccPythonInstance" title="pycc.ccPythonInstance"><span class="pre">pycc.ccPythonInstance</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">filepath</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">loadParameters</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="api/others.html#pycc.FileIOFilter.LoadParameters" title="pycc.FileIOFilter.LoadParameters"><span class="pre">pycc.FileIOFilter.LoadParameters</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="api/data_structures.html#pycc.ccHObject" title="pycc.ccHObject"><span class="pre">pycc.ccHObject</span></a></span></span><a class="headerlink" href="#pycc.ccPythonInstance.loadFile" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">loadFile</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycc.ccPythonInstance" title="pycc.ccPythonInstance"><span class="pre">pycc.ccPythonInstance</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">filepath</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">loadParameters</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="others.html#pycc.FileIOFilter.LoadParameters" title="pycc.FileIOFilter.LoadParameters"><span class="pre">pycc.FileIOFilter.LoadParameters</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="data_structures.html#pycc.ccHObject" title="pycc.ccHObject"><span class="pre">pycc.ccHObject</span></a></span></span><a class="headerlink" href="#pycc.ccPythonInstance.loadFile" title="Permalink to this definition">¶</a></dt>
 <dd><p>Loads the file located at the filepath.</p>
 <p>Adds the file content of the file into the DBTree
 and then returns loaded object handle.</p>
@@ -318,7 +320,7 @@ and then returns loaded object handle.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="pycc.ccPythonInstance.setSelectedInDB">
-<span class="sig-name descname"><span class="pre">setSelectedInDB</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycc.ccPythonInstance" title="pycc.ccPythonInstance"><span class="pre">pycc.ccPythonInstance</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">obj</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="api/data_structures.html#pycc.ccHObject" title="pycc.ccHObject"><span class="pre">pycc.ccHObject</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">selected</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">bool</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pycc.ccPythonInstance.setSelectedInDB" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">setSelectedInDB</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycc.ccPythonInstance" title="pycc.ccPythonInstance"><span class="pre">pycc.ccPythonInstance</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">obj</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="data_structures.html#pycc.ccHObject" title="pycc.ccHObject"><span class="pre">pycc.ccHObject</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">selected</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">bool</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pycc.ccPythonInstance.setSelectedInDB" title="Permalink to this definition">¶</a></dt>
 <dd><p>Set the selection state of the object in the GUI DB Tree</p>
 </dd></dl>
 
@@ -472,7 +474,7 @@ and then returns loaded object handle.</p>
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="api/index.html" class="btn btn-neutral float-right" title="pycc API" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="data_structures.html" class="btn btn-neutral float-right" title="CloudCompare Data Structures &amp; Interfaces" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
         <a href="index.html" class="btn btn-neutral float-left" title="pycc (Python)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 

@@ -25,7 +25,9 @@ interpreter to run scripts.
    examples
 
 This project hosts the API Documentation for both the C++ and Python
-API. When using Python functions, the functions explanations can
+API.
+
+When using Python functions, the functions explanations can
 be found on the corresponding C++ function documentation.
 
 .. toctree::

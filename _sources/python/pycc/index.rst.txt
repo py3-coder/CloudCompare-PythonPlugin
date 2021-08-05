@@ -14,5 +14,7 @@ It also define classes and functions that allows to interact with the "CloudComp
     :caption: API
 
     runtime
-    api/index
+    data_structures
+    primitives
+    others
 

@@ -6,6 +6,9 @@ Vectors
 
 CCVector3
 __________
+.. seealso::
+
+    Python: :py:class:`cccorelib.ccObject`
 
 .. doxygentypedef:: CCVector3
    :members:
@@ -19,6 +22,9 @@ PointClouds
 
 GenericCloud
 ____________
+.. seealso::
+
+    Python: :py:class:`cccorelib.GenericCloud`
 
 .. doxygenclass:: CCCoreLib::GenericCloud
    :members:
@@ -27,6 +33,9 @@ ____________
 
 GenericIndexedCloud
 ___________________
+.. seealso::
+
+    Python: :py:class:`cccorelib.GenericIndexedCloud`
 
 .. doxygenclass:: CCCoreLib::GenericIndexedCloud
    :members:
@@ -35,6 +44,9 @@ ___________________
 
 GenericIndexedCloudPersist
 __________________________
+.. seealso::
+
+    Python: :py:class:`cccorelib.GenericIndexedCloudPersist`
 
 .. doxygenclass:: CCCoreLib::GenericIndexedCloudPersist
    :members:
@@ -44,6 +56,9 @@ __________________________
 
 PointCloud
 __________
+.. seealso::
+
+    Python: :py:class:`cccorelib.PointCloud`
 
 .. doxygenclass:: CCCoreLib::PointCloud
    :members:
@@ -52,6 +67,9 @@ __________
 
 ReferenceCloud
 ______________
+.. seealso::
+
+    Python: :py:class:`cccorelib.ReferenceCloud`
 
 .. doxygenclass:: CCCoreLib::ReferenceCloud
     :members:
@@ -62,6 +80,9 @@ Meshes
 
 GenericTriangle
 _______________
+.. seealso::
+
+    Python: :py:class:`cccorelib.GenericTriangle`
 
 .. doxygenclass:: CCCoreLib::GenericTriangle
     :members:
@@ -70,6 +91,9 @@ _______________
 
 GenericMesh
 ___________
+.. seealso::
+
+    Python: :py:class:`cccorelib.GenericMesh`
 
 .. doxygenclass:: CCCoreLib::GenericMesh
     :members:
@@ -78,6 +102,9 @@ ___________
 
 GenericIndexedMesh
 __________________
+.. seealso::
+
+    Python: :py:class:`cccorelib.GenericIndexedMesh`
 
 .. doxygenclass:: CCCoreLib::GenericIndexedMesh
     :members:
@@ -86,6 +113,9 @@ __________________
 
 Delaunay2dMesh
 ______________
+.. seealso::
+
+    Python: :py:class:`cccorelib.Delaunay2dMesh`
 
 .. doxygenclass:: CCCoreLib::Delaunay2dMesh
     :members:
@@ -94,6 +124,9 @@ ______________
 
 Polyline
 ________
+.. seealso::
+
+    Python: :py:class:`cccorelib.Polyline`
 
 .. doxygenclass:: CCCoreLib::Polyline
     :members:
@@ -102,6 +135,9 @@ ________
 
 SimpleTriangle
 ______________
+.. seealso::
+
+    Python: :py:class:`cccorelib.SimpleTriangle`
 
 .. doxygenclass:: CCCoreLib::SimpleTriangle
     :members:
@@ -110,6 +146,9 @@ ______________
 
 SimpleMesh
 __________
+.. seealso::
+
+    Python: :py:class:`cccorelib.SimpleMesh`
 
 .. doxygenclass:: CCCoreLib::SimpleMesh
     :members:
@@ -121,6 +160,9 @@ KdTrees
 
 KDTree
 ______
+.. seealso::
+
+    Python: :py:class:`cccorelib.KDTree`
 
 .. doxygenclass:: CCCoreLib::KDTree
     :members:
@@ -130,6 +172,9 @@ ______
 
 TrueKdTree
 __________
+.. seealso::
+
+    Python: :py:class:`cccorelib.TrueKdTree`
 
 .. doxygenclass:: CCCoreLib::TrueKdTree
     :members:
@@ -142,6 +187,9 @@ Octrees
 
 GenericOctree
 _____________
+.. seealso::
+
+    Python: :py:class:`cccorelib.GenericOctree`
 
 .. doxygenclass:: CCCoreLib::GenericOctree
     :members:
@@ -150,6 +198,9 @@ _____________
 
 DgmOctree
 _________
+.. seealso::
+
+    Python: :py:class:`cccorelib.DgmOctree`
 
 .. doxygenclass:: CCCoreLib::DgmOctree
     :members:
@@ -158,6 +209,9 @@ _________
 
 DgmOctreeReferenceCloud
 _______________________
+.. seealso::
+
+    Python: :py:class:`cccorelib.DgmOctreeReferenceCloud`
 
 .. doxygenclass:: CCCoreLib::DgmOctreeReferenceCloud
     :members:
@@ -169,6 +223,9 @@ Others
 
 BoundingBox
 ___________
+.. seealso::
+
+    Python: :py:class:`cccorelib.BoundingBox`
 
 .. doxygenclass:: CCCoreLib::BoundingBox
     :members:
@@ -178,6 +235,9 @@ ___________
 
 ScalarField
 ___________
+.. seealso::
+
+    Python: :py:class:`cccorelib.ScalarField`
 
 .. doxygenclass:: CCCoreLib::ScalarField
     :members:
