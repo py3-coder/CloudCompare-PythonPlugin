@@ -1,0 +1,74 @@
+qCC_db (C++)
+============
+
+Base
+----
+
+ccObject
+________
+.. seealso::
+
+    Python: :class:`pycc.ccObject`
+
+.. doxygenclass:: ccObject
+   :members:
+
+
+
+ccHObject
+_________
+.. seealso::
+
+    Python: :class:`pycc.ccHObject`
+
+.. doxygenclass:: ccHObject
+   :members:
+
+
+PointCloud
+----------
+
+ccGenericPointCloud
+___________________
+.. seealso::
+
+    Python: :class:`pycc.ccGenericPointCloud`
+
+.. doxygenclass:: ccGenericPointCloud
+   :members:
+
+
+ccPointCloud
+_____________
+.. seealso::
+
+    Python: :class:`pycc.ccPointCloud`
+
+.. doxygenclass:: ccPointCloud
+   :members:
+
+
+
+Mesh
+----
+
+ccGenericMesh
+_____________
+.. seealso::
+
+    Python: :class:`pycc.ccGenericMesh`
+
+.. doxygenclass:: ccGenericMesh
+   :members:
+
+
+ccMesh
+______
+.. seealso::
+
+    Python: :class:`pycc.ccMesh`
+
+.. doxygenclass:: ccMesh
+   :members:
+
+

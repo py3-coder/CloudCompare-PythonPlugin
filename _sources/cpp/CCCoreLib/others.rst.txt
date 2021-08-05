@@ -1,0 +1,18 @@
+Others
+======
+
+
+GenericProgressCallback
+-----------------------
+
+.. doxygenclass:: CCCoreLib::GenericProgressCallback
+   :members:
+   :project: CCCoreLib
+
+
+NormalizedProgress
+-----------------------
+
+.. doxygenclass:: CCCoreLib::NormalizedProgress
+    :members:
+    :project: CCCoreLib

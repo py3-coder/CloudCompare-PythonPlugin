@@ -1,0 +1,185 @@
+CCCoreLib Data Structures & Interfaces
+======================================
+
+Vectors
+-------
+
+CCVector3
+__________
+
+.. doxygentypedef:: CCVector3
+   :members:
+   :project: CCCoreLib
+
+
+
+PointClouds
+-----------
+
+
+GenericCloud
+____________
+
+.. doxygenclass:: CCCoreLib::GenericCloud
+   :members:
+   :project: CCCoreLib
+
+
+GenericIndexedCloud
+___________________
+
+.. doxygenclass:: CCCoreLib::GenericIndexedCloud
+   :members:
+   :project: CCCoreLib
+
+
+GenericIndexedCloudPersist
+__________________________
+
+.. doxygenclass:: CCCoreLib::GenericIndexedCloudPersist
+   :members:
+   :project: CCCoreLib
+
+
+
+PointCloud
+__________
+
+.. doxygenclass:: CCCoreLib::PointCloud
+   :members:
+   :project: CCCoreLib
+
+
+ReferenceCloud
+______________
+
+.. doxygenclass:: CCCoreLib::ReferenceCloud
+    :members:
+    :project: CCCoreLib
+
+Meshes
+------
+
+GenericTriangle
+_______________
+
+.. doxygenclass:: CCCoreLib::GenericTriangle
+    :members:
+    :project: CCCoreLib
+
+
+GenericMesh
+___________
+
+.. doxygenclass:: CCCoreLib::GenericMesh
+    :members:
+    :project: CCCoreLib
+
+
+GenericIndexedMesh
+__________________
+
+.. doxygenclass:: CCCoreLib::GenericIndexedMesh
+    :members:
+    :project: CCCoreLib
+
+
+Delaunay2dMesh
+______________
+
+.. doxygenclass:: CCCoreLib::Delaunay2dMesh
+    :members:
+    :project: CCCoreLib
+
+
+Polyline
+________
+
+.. doxygenclass:: CCCoreLib::Polyline
+    :members:
+    :project: CCCoreLib
+
+
+SimpleTriangle
+______________
+
+.. doxygenclass:: CCCoreLib::SimpleTriangle
+    :members:
+    :project: CCCoreLib
+
+
+SimpleMesh
+__________
+
+.. doxygenclass:: CCCoreLib::SimpleMesh
+    :members:
+    :project: CCCoreLib
+
+
+KdTrees
+-------
+
+KDTree
+______
+
+.. doxygenclass:: CCCoreLib::KDTree
+    :members:
+    :project: CCCoreLib
+
+
+
+TrueKdTree
+__________
+
+.. doxygenclass:: CCCoreLib::TrueKdTree
+    :members:
+    :project: CCCoreLib
+
+
+Octrees
+-------
+
+
+GenericOctree
+_____________
+
+.. doxygenclass:: CCCoreLib::GenericOctree
+    :members:
+    :project: CCCoreLib
+
+
+DgmOctree
+_________
+
+.. doxygenclass:: CCCoreLib::DgmOctree
+    :members:
+    :project: CCCoreLib
+
+
+DgmOctreeReferenceCloud
+_______________________
+
+.. doxygenclass:: CCCoreLib::DgmOctreeReferenceCloud
+    :members:
+    :project: CCCoreLib
+
+
+Others
+------
+
+BoundingBox
+___________
+
+.. doxygenclass:: CCCoreLib::BoundingBox
+    :members:
+    :project: CCCoreLib
+
+
+
+ScalarField
+___________
+
+.. doxygenclass:: CCCoreLib::ScalarField
+    :members:
+    :project: CCCoreLib
+
